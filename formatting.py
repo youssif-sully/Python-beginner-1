@@ -6,8 +6,8 @@ dict_info = {'first_name': 'Youssef', 'last_name': 'Sully', 'age': 33}
 
 print("\n{} {} {}\n".format("-" * 9, "Bad implementation of printing multiple output", "-" * 9))
 
-output = 'My first name is ' + dict_info['first_name'] + dict_info['first_name'] + \
-         ' and I am ' + str(dict_info['age']) + ' years old.'
+output = 'My first name is ' + dict_info['first_name'] + " " + dict_info['last_name'] + \
+         ' and I am ' + str(dict_info['age']) + ' years old. '
 print(output)
 
 print("\n{} {} {}\n".format("-" * 9, "Use of formatting", "-" * 9))
@@ -35,13 +35,13 @@ print(output)
 
 print("\n{} {} {}\n".format("-" * 9, "Direct operation inside the format", "-" * 9))
 
-output = '25 / 5 is equal to {} bytes'.format(25 / 5)
+output = '25 / 5 is equal to {} '.format(25 / 5)
 print(output)
 
 print("\n{} {} {}\n".format("-" * 9, "Different variation of int output", "-" * 9))
 
 # using the :03 inside the curly brackets to display three digits instead of 1
-integer_number = 3
+integer_number = 5
 output = 'The value of the integer_number is {} but after using \n:03 inside the curly ' \
          'brackets it displayed as {:03}'.format(integer_number, integer_number)
 print(output, "\n")
