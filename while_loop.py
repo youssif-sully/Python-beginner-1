@@ -1,6 +1,11 @@
-# Created by Youssef
+###############################################
+#                                             #
+#       Created by Youssef Sully              #
+#       Beginner python                       #
+#       While Loops                           #
+#                                             #
+###############################################
 
-# While loop
 
 # 1. in while loop we have to INITIALIZE the variable (iterator = 0)
 # 2. execute the below command until this statement is (iterator < 10) TRUE

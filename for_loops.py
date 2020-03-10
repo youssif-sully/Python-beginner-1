@@ -1,5 +1,11 @@
-# Created by Youssef Suleiman
-# 08-03-2020
+###############################################
+#                                             #
+#       Created by Youssef Sully              #
+#       Beginner python                       #
+#       For Loops                             #
+#                                             #
+###############################################
+
 # a list
 number_list = [1, 2, 3, 4, 5]
 
