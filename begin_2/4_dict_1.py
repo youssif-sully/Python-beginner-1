@@ -28,6 +28,7 @@ print("My courses are in {} and {} ".
 # print(dict_info_1[0])
 # ---> error because dictionary represented NOT by index rather by KEYS
 
+
 # get() Method
 print("\n{} {} {}\n".format("-" * 9, "get() Method", "-" * 9))
 
@@ -51,14 +52,12 @@ dict_info_1.update({'last_name': 'Solli',
                     'age': 43})
 print(dict_info_1)
 
-
 # copy() Method"
 print("\n{} {} {}\n".format("-" * 9, "copy() Method", "-" * 9))
 
 dict_info_2 = dict_info_1.copy()
 print("The new dict is a copy of the previous one")
 print(dict_info_2)
-
 
 # fromkeys() and setdefault() Methods
 print("\n{} {} {}\n".format("-" * 9, "fromkeys() and setdefault() Methods", "-" * 9))
@@ -82,12 +81,26 @@ print(new_key_2, "\n")
 print("The new dict")
 print(dict_new)
 
+# items(), values() and keys() Methods
 print("\n{} {} {}\n".format("-" * 9, "items(), values() and keys() Methods", "-" * 9))
 
 print(dict_info_1.items())  # ---> returns list with two values' tuple
 print(dict_info_1.values())  # ---> returns list
 print(dict_info_1.keys())  # ---> returns list
 
+# For loop and dictionary
+print("\n{} {} {}\n".format("-" * 9, "For loop and dictionary", "-" * 9))
+
+print("The keys of the dict_info_1 are:")
+for key in dict_info_1:
+    print(key)
+
+print("\nThe keys and values of the dict_info_1 are:")
+for key, value in dict_info_1.items(): # dict_info_1.item returns ---> key and value ---> see above
+    print(key, value)
+
+
+# Del(), pop(), popitem() and clear() Methods
 print("\n{} {} {}\n".format("-" * 9, "Del(), pop(), popitem() and clear() Methods", "-" * 9))
 
 # in general pop used to delete AND returns the value of the deleted item
