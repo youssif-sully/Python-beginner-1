@@ -59,8 +59,15 @@ dict_info_2 = dict_info_1.copy()
 print("The new dict is a copy of the previous one")
 print(dict_info_2)
 
-# fromkeys() and setdefault() Methods
-print("\n{} {} {}\n".format("-" * 9, "fromkeys() and setdefault() Methods", "-" * 9))
+# fromkeys() , zip() and setdefault() Methods
+print("\n{} {} {}\n".format("-" * 9, "fromkeys() , zip() and setdefault() Methods", "-" * 9))
+
+# zip () maps two lists into a dictionary
+keys = ['Color 1', 'Color 2', 'Color 3']
+values = ['red', 'green', 'blue']
+color_dictionary = dict(zip(keys, values))
+print("The zip() method maps two lists into a dictionary")
+print(color_dictionary, "\n")
 
 tuple_1 = ('key_1', 'key_2', 'key_3')
 values = 'some random value'
@@ -96,9 +103,8 @@ for key in dict_info_1:
     print(key)
 
 print("\nThe keys and values of the dict_info_1 are:")
-for key, value in dict_info_1.items(): # dict_info_1.item returns ---> key and value ---> see above
+for key, value in dict_info_1.items():  # dict_info_1.item returns ---> key and value ---> see above
     print(key, value)
-
 
 # Del(), pop(), popitem() and clear() Methods
 print("\n{} {} {}\n".format("-" * 9, "Del(), pop(), popitem() and clear() Methods", "-" * 9))
