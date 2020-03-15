@@ -2,7 +2,7 @@
 #                                             #
 #       Created by Youssef Sully              #
 #       Beginner python                       #
-#       While Loops                           #
+#       While Loops 3                         #
 #                                             #
 ###############################################
 
