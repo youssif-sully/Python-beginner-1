@@ -2,18 +2,19 @@
 #                                             #
 #       Created by Youssef Sully              #
 #       Beginner python                       #
-#       classes 2 Class variables             #
+#       classes 2 INSTANCE variables 2        #
 #       and methods                           #
 #                                             #
 ###############################################
 
-# Class variables
-# instead of assigning variables to each INSTANCE (classes_1.py), we can def a Class variables
+# INSTANCE variables 2
+# instead of assigning variables to each INSTANCE (classes_1.py), 
+# we can def a INSTANCE variables inside the class
 
 
 class StudentType2:
 
-    # Initializing class variables: self (by convention) act like INSTANCE (student_1)
+    # Initializing INSTANCE variables: self (by convention) act like INSTANCE (student_1)
     def __init__(self, f_name, l_name, courses):
         self.f_name = f_name
         self.l_name = l_name

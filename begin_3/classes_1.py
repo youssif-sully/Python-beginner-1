@@ -2,7 +2,7 @@
 #                                             #
 #       Created by Youssef Sully              #
 #       Beginner python                       #
-#       classes 1 INSTANCE variables          #
+#       classes 1 INSTANCE variables 1        #
 #                                             #
 ###############################################
 
