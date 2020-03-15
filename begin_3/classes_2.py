@@ -20,12 +20,13 @@ class StudentType2:
         self.l_name = l_name
         self.courses = courses
 
-    # Functions inside the class called methods
+    # Functions inside the class called INSTANCE regular methods
+    # INSTANCE regular methods take an INSTANCE as an argument by default
     def email(self):
         return '{}.{}@aol.com'.format(self.f_name.lower(), self.l_name.lower())
 
 
-# assigning self --> new_student_1 , f_name --> 'Youssef', l_name --> 'Sully',
+# assigning self --> new_student_1 (assigned automatically), f_name --> 'Youssef', l_name --> 'Sully',
 # courses --> ['CompSci', 'Telecom']
 new_student_1 = StudentType2('Youssef', 'Sully', ['CompSci', 'Telecom'])
 new_student_2 = StudentType2('Sully', 'Youssef', ['Telecom', 'CompSci'])
