@@ -1,6 +1,6 @@
 # Python beginner
 
-## 1. begin_1
+- [Strings](begin_1)
 
     1. String
     2. If statements (will be added soon)
