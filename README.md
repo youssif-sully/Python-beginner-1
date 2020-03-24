@@ -1,24 +1,36 @@
 # Python beginner
 
-- [Strings](begin_1)
+## 1. [Strings](begin_1)
 
-    1. String
-    2. If statements (will be added soon)
-    3. Comparators (will be added soon)
+- Strings
+  - [Strings 1](string_1.py)
+  - [Strings 2](string_1.py)
+  - If statements (will be added soon)
+  - Comparators (will be added soon)
 
-## 2. begin_2
+## 2. [Formatting, For and while loops and Dictionary](begin_2)
 
-    1. Formatting
-    2. For loop
-    3. While loop
-    4. Dictionary
+- Formatting
+  - [Formatting](0_formatting.py)
+  - F string (will be added soon)
+- Loops
+  - [For loop](1_for_loop.py)
+  - [While loop](2_while_loop)
+  - [Loop Ex.](3_d_loop_ex_1_sol.py)
+- Dictionary
+  - [Dictionary 1](4_dict_1.py)
+  - [Dictionary 2](4_dict_2.py)
 
-## 3. begin_3
+## 3. [Functions and classes](begin_3)
 
-    1. Functions (will be added soon)
-    2. classes INSTANCE variables
-    3. classes class variables
+- Functions (will be added soon)
+- Classes
+  - INSTANCE variables
+    - [INSTANCE variables 1](classes_1.py)
+    - [INSTANCE variables 2](classes_2.py)
+  - Class variables
+    - [Class variables](classes_3.py)
 
-## 4. begin_4
+## 4. [Importing Modules](begin_4)
 
-     Importing Modules
+- [Importing Modules](main.py)
