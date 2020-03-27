@@ -1,3 +1,11 @@
+###############################################
+#                                             #
+#       Created by Youssef Sully              #
+#       Beginner python                       #
+#       File handling 1                       #
+#                                             #
+###############################################
+
 # 'r' read, 'w' write, 'a' append and 'r+' read and write
 
 # Not recommended implementation (close the resources (Ex. files and Network ports ) is imperative
