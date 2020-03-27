@@ -34,3 +34,7 @@
 ## 4. [Importing Modules](4_Importing_Modules)
 
 - [Importing Modules](4_Importing_Modules/main.py)
+
+## 5. [File Handling](5_File_Handling)
+
+- [File Handling 1](5_File_Handling/main.py)
