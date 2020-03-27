@@ -8,7 +8,7 @@
 
 # 'r' read, 'w' write, 'a' append and 'r+' read and write
 
-# Not recommended implementation (close the resources (Ex. files and Network ports ) is imperative
+# Not recommended implementation (close() the resources (Ex. files and Network ports) is imperative
 # and in case any error before file.close() the resource (file) will be still open)
 file = open('test.txt', 'r')
 print("\nUsing open (without context manager) to open the {}".format(file.name))
