@@ -37,4 +37,8 @@
 
 ## 5. [File Handling](5_File_Handling)
 
-- [File Handling 1](5_File_Handling/file_handling_1.py)
+- Reading from files
+    - [File Handling 1](5_File_Handling/file_handling_1.py)
+    - [File Handling 2](5_File_Handling/file_handling_2.py)
+- Writing and copying text and image files
+    - [File Handling 3](5_File_Handling/file_handling_3.py)
