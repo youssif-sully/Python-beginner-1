@@ -2,5 +2,6 @@
 /.vscode/
 /__pycache__/
 /test/
+*.code-workspace
 *.pyc
 *.yml
